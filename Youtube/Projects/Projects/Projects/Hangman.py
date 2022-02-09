@@ -34,17 +34,17 @@ def hangman():
 
             else:
                 lives = lives - 1  
-                print('\nYour letter,', user_letter, 'is not in the word.')
+                print('\nYour letter,', user_letter, 'is not in the word.')  
 
         elif user_letter in used_letters:
-            print('\nYou have already used that letter. Guess another letter.')
+            print('\nYou have already used that letter. Guess another letter.')  
 
         else:
             print('\nThat is not a valid letter.')
 
     if lives == 0:
 
-        print('You died, sorry. The word was', word)
+        print('You died, sorry. The word was', word) 
     else:
         print('YAY! You guessed the word', word, '!!')
 
