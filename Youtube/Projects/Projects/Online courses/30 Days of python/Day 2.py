@@ -63,3 +63,27 @@ print(a_dict)
 a_dict["abc"] = "another new string"
 print(a_dict)
 a_dict
+
+#Tuples
+
+tup = ()
+tup = ("abc", "abc")
+print(tup)
+
+tup = (
+    ("another", "another"),
+    ("more", "more"),
+)
+print(tup)
+print(tup[0])
+print(tup[0][0])
+
+tup += ("yetanother", 123)
+print(tup)
+tup += (("yetanother", 123),)
+print(tup)
+
+the_list = []
+abc = ["another", "another"]
+the_list.append(abc)
+print(the_list)
