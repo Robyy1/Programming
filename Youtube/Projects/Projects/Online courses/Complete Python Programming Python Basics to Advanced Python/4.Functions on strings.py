@@ -1,0 +1,37 @@
+String   = 'i am learning python, python is good'
+string   = 'i aM LeArnING PyTHOn'
+string_1 = 'i am learning pytheon'
+string_2 = 'i am learning : python'
+Numeric_String = "77"
+
+print(String.upper())
+print(string.lower())
+print(String.split())
+print(String.split("e"))
+print(string_1.split("e"))
+print(string_2.split(":"))
+print(String.capitalize())
+print(String.startswith('i'))
+print(String.startswith('i am lea'))
+print(String.startswith(' i am lea'))
+print(String.endswith('python'))
+print(String.endswith('python33'))
+print(String.isnumeric())
+print(Numeric_String.isnumeric())
+print(String.islower())
+print(String.isupper())
+print(String.index("a"))
+print(String.find("a"))
+print(String.find("learning"))
+print(String.find("learning23123123"))
+print(String.__contains__("am"))
+print(String.__contains__("python"))
+print(String.__contains__("c++"))
+print(String.count("i"))
+print(String.count("n"))
+print(String.count("a"))
+print(String.count("Z"))
+print(String.count("python"))
+print(String.count('python', 0, 20))
+print(String.count("python", 0, 30))
+print(String.count("learning", 0, 40))
